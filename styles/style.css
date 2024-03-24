@@ -101,6 +101,7 @@
 
 .cover__title {
   position: relative;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -110,17 +111,16 @@
   font-size: 100px;
   line-height: 1.15;
   text-transform: uppercase;
-  z-index: 10;
 }
 
 .cover__description {
   position: relative;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
-  z-index: 10;
 }
 
 .cover__description-text {
@@ -136,8 +136,8 @@
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
   color: #fff;
-  font-weight: 500;
   font-family: inherit;
+  font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
 }
@@ -196,12 +196,12 @@
 
 .card__title {
   position: relative;
+  z-index: 10;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
   text-decoration: underline;
   text-transform: uppercase;
-  z-index: 10;
 }
 
 .card__text {
